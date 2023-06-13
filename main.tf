@@ -7,7 +7,7 @@ secret_key = "d7Gj4mj2pYMA1i4EXuIhMLA2Cs6hI03AQEUtGu54"
 resource "aws_instance" "example" {
 ami     = "ami-0f5ee92e2d63afc18"
 instance_type = "t2.micro"
-key_name      = "jenkinsserver"
+Key_name      = "jenkinsserver"
 tags          = {
 Name          = "sriram"
 }
